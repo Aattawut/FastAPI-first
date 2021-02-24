@@ -8,6 +8,11 @@ def helloworld():
     return 'Hello World FastAPI'
 
 
+@app.get("/Author")
+def helloworld():
+    return 'Aattawut Nutlamyong'
+
+
 @app.get("/bmi")
 def bmi(weight: float, height: float):
     bmi = weight/(height/100)**2
