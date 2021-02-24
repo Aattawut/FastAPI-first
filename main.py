@@ -8,7 +8,7 @@ def helloworld():
     return 'Hello World FastAPI'
 
 
-@app.get("/Author")
+@app.get("/author")
 def helloworld():
     return 'Aattawut Nutlamyong'
 
